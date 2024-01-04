@@ -1,0 +1,117 @@
+[debug] [2024-01-04T00:18:01.774Z] ----------------------------------------------------------------------
+[debug] [2024-01-04T00:18:01.776Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-04T00:18:01.776Z] CLI Version:   13.0.2
+[debug] [2024-01-04T00:18:01.777Z] Platform:      win32
+[debug] [2024-01-04T00:18:01.777Z] Node Version:  v20.9.0
+[debug] [2024-01-04T00:18:01.777Z] Time:          Thu Jan 04 2024 02:18:01 GMT+0200 (Eastern European Standard Time)
+[debug] [2024-01-04T00:18:01.777Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-04T00:18:01.783Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-04T00:18:01.783Z] > authorizing via signed-in user (asia.ostafiychuk@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\vosta\WebstormProjects\untitled1
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-01-04T00:19:26.019Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-01-04T00:19:26.019Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"program","name":"log in"}
+[debug] [2024-01-04T00:19:27.036Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-01-04T00:19:27.036Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-01-04T00:19:27.173Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID program. Please try again with a unique project ID.
+[debug] [2024-01-04T00:19:38.473Z] ----------------------------------------------------------------------
+[debug] [2024-01-04T00:19:38.475Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-04T00:19:38.476Z] CLI Version:   13.0.2
+[debug] [2024-01-04T00:19:38.476Z] Platform:      win32
+[debug] [2024-01-04T00:19:38.476Z] Node Version:  v20.9.0
+[debug] [2024-01-04T00:19:38.476Z] Time:          Thu Jan 04 2024 02:19:38 GMT+0200 (Eastern European Standard Time)
+[debug] [2024-01-04T00:19:38.476Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-04T00:19:38.482Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-04T00:19:38.483Z] > authorizing via signed-in user (asia.ostafiychuk@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\vosta\WebstormProjects\untitled1
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-01-04T00:20:32.514Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-01-04T00:20:32.515Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"myProgramLogInAnastasia","name":"myProgramLogInAnastasia"}
+[debug] [2024-01-04T00:20:33.436Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-01-04T00:20:33.436Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-01-04T00:20:33.566Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-01-04T00:22:11.852Z] ----------------------------------------------------------------------
+[debug] [2024-01-04T00:22:11.854Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-04T00:22:11.855Z] CLI Version:   13.0.2
+[debug] [2024-01-04T00:22:11.855Z] Platform:      win32
+[debug] [2024-01-04T00:22:11.855Z] Node Version:  v20.9.0
+[debug] [2024-01-04T00:22:11.855Z] Time:          Thu Jan 04 2024 02:22:11 GMT+0200 (Eastern European Standard Time)
+[debug] [2024-01-04T00:22:11.855Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-04T00:22:11.861Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-04T00:22:11.861Z] > authorizing via signed-in user (asia.ostafiychuk@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\vosta\WebstormProjects\untitled1
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-01-04T00:23:26.441Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-01-04T00:23:26.441Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"19282382632Anastasia","name":"anastasiaproject"}
+[debug] [2024-01-04T00:23:27.361Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-01-04T00:23:27.361Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-01-04T00:23:27.521Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\vosta\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
